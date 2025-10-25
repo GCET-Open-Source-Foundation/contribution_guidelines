@@ -72,7 +72,17 @@ Add the files you changed and commit with a clear message.
 
 ```
 git add .
-git commit -m "Short description of changes"
+git commit -s
+It opens an editor, type your commit message in the following format:
+Begin with an imperative or commanding statement — use words like Add, Fix, Change, etc.
+
+Then, describe the current behavior of the system and clearly highlight the issue within it.
+
+Next, propose a solution that addresses the described issue.
+
+Finally, demonstrate how your changes or code snippets have affected the results of the codebase.
+
+Note: Do not describe what you’ve done; instead, describe why you’ve done it.
 ```
 
 A good commit message describes **why** you changed, not just
